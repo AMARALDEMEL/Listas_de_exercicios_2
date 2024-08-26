@@ -40,9 +40,9 @@ class Program
              { 
                 Console.WriteLine("Armadura não adequada");
              }
-        }
-       if(classes=="arqueiro")
-             {
+    }
+    if(classes=="arqueiro")
+    {
              if(defensor>30 && penalizacao<10)
              { 
             Console.WriteLine("Armadura adequada");
