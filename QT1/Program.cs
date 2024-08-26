@@ -32,37 +32,34 @@ class Program
         int.TryParse(Console.ReadLine(),out penalizacao);
         if(classes=="guerreiro")
         {
-        if(defensor>50 & penalizacao<20)
-        { 
+             if(defensor>50 & penalizacao<20)
+             { 
             Console.WriteLine("Armadura adequada");
              }
              else
-             {
-                 
+             { 
                 Console.WriteLine("Armadura não adequada");
              }
         }
        if(classes=="arqueiro")
-    {
-     if(defensor>30 && penalizacao<10)
-        { 
+             {
+             if(defensor>30 && penalizacao<10)
+             { 
             Console.WriteLine("Armadura adequada");
              }
              else
-             {
-                 
+             { 
                 Console.WriteLine("Armadura inadequada");
              }
     }
     if(classes=="mago")
     {
-        if(defensor>20 && penalizacao<40)
-        { 
+             if(defensor>20 && penalizacao<40)
+             { 
             Console.WriteLine("Armadura adequada");
              }
              else
              {
-                 
                 Console.WriteLine("Armadura inadequada");
              }
     }
